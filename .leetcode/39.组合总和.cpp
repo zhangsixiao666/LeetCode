@@ -27,7 +27,7 @@ public:
                 return ;
             }
             for(int i = idx; i< n; ++i){
-                if(i and c[i]==c[i-1])
+                if(i!=idx and c[i]==c[i-1])
                     continue;
                 auto x = c[i];
                 path.push_back(x);
